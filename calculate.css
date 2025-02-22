@@ -1,0 +1,125 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    height: 39vh;
+    border: solid 3px rgb(0, 237, 197);
+    border-radius: 12px;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: rgba(50, 42, 42,0.5);
+    &:hover{
+        border: none;
+        box-shadow:-10px 10px 60px 10px rgb(0, 237, 197);
+        transition: 0.5s;
+    }
+}
+
+input{
+    position: absolute;
+    top:1vw;
+    width: 280px;
+    height:60px;
+    font-size: 15px;
+    border: solid 2px rgb(23, 233, 23);
+    background-color: transparent;
+    border-radius: 12px;
+}
+
+p{
+    display: none;
+    position: absolute;
+    top: 0.5vw;
+    left: 14%;
+    font-size: 30px;
+}
+
+.main2{
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+#plus,#minus,#point,#equals{
+    font-size: 23px;
+}
+
+#X{
+    font-size: 20PX;
+}
+
+#one,#two,#three,#AC{
+    background-color: blueviolet;
+    border: solid 1px blueviolet;
+    transition: 0.5s;
+    &:hover{
+        border: none;
+        background-color: transparent;
+        box-shadow:-10px -10px 80px 15px rgb(127, 2, 244);
+        transition: 0.5;
+    }
+}
+
+#four,#five,#six,#minus{
+    background-color: rgb(43, 86, 226);
+    border: solid 1px rgb(43,86,226);
+    transition: 0.5s;
+    &:hover{
+        border: none;
+        background-color: transparent;
+        box-shadow:-10px -10px 80px 15px rgb(43, 86, 226);
+        transition: 0.5;
+    }
+}
+
+#seven,#eight,#nine,#X{
+    background-color: rgb(61, 226, 43);
+    border: solid 1px rgb(61, 226, 43);
+    transition: 0.5s;
+    &:hover{
+        border: none;
+        background-color: transparent;
+        box-shadow:-10px -10px 80px 15px rgb(61, 226, 43);
+        transition: 0.5;
+    }
+}
+
+#plus,#equals,#divide,#point{
+    background-color: rgb(43, 189, 160);
+    border: solid 1px rgb(43, 189, 160);
+    transition: 0.5s;
+    &:hover{
+        border: none;
+        background-color: transparent;
+        box-shadow:-10px -10px 80px 15PX rgb(43, 189, 160);
+        transition: 0.5;
+    }
+}
+
