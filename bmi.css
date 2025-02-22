@@ -70,9 +70,18 @@ body{
     gap: 10px;
 }
 
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 label{
     text-transform: capitalize;
-    font-size: 18px;
+    font-size: 16px;
+    transform: translateY(21px);
+    transition: 0.5s;
 }
 
 input{
